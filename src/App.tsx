@@ -363,7 +363,7 @@ const App: React.FC = () => {
         </div>
 
         {/* All Day Orders */}
-        <div className="w-full rounded-2xl shadow bg-white/10 border border-white/20 p-6 backdrop-blur-lg backdrop-saturate-150">
+        <div className="w-full rounded-2xl shadow bg-white/10 border border-white/20 p-6 backdrop-blur-lg backdrop-saturate-150 mt-5">
           <h3 className="text-lg font-semibold mb-4 text-white/90">All Day Orders</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {timetable.map((day, idx) => (
